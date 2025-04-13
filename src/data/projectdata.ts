@@ -32,7 +32,7 @@ export interface Project {
       skills: "SQL, JavaScript, HTML/CSS, Google Maps API, Figma",
       dates: "May 2023 - Augest 2023",
       image: networkgreenImg,
-      description: "Created a nonprofit website that connects restaurants and food shelters together, targeting the food waste crisis in the Austin area.",
+      description: "Created a nonprofit website that connects restaurants and food shelters together, targeting the food waste crisis in the Austin area. Developed SQL queries and managed over 5 resturants data for the site.",
       codelink: "https://github.com/Network-Green/Network-Green",
       websitelink: "https://networkgreen.org/"
     },

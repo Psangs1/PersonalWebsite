@@ -3,7 +3,7 @@ import headshot from '../assets/professional-headshot.jpeg'
 const Hero = () => {
     return (
         <>
-        <div className="flex flex-row justify-start">
+        <div className="flex flex-row justify-start min-h-screen">
             <div className="basis-2/3 flex flex-col font-inter items-start text-left"> 
                 <h1 className="text-[64px] font-bold">Hello! I'm Parth Sangani.</h1>
                 <h5 className="py-15 font-extralight"> I’m a current Junior at the University of Maryland, studying computer science and mathematics. 
