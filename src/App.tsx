@@ -6,6 +6,7 @@ import { Connect } from 'vite'
 
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import ProjectShowcase from './components/ProjectShowcase'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <>
      <Navbar />
      <Hero />
+     <ProjectShowcase />
       
     </>
   )
