@@ -26,7 +26,7 @@ const ProjectCard: React.FC<Project> = ({id, name, skills, dates, image, descrip
           <h1>{description}</h1>
         </div>
        
-       <div className="flex flex-row-reverse items-end justify-items-end gap-8 font-inter">
+       <div className="flex flex-row-reverse items-end justify-items-end gap-8 font-primary">
         <a href={websitelink} target="_blank">
           <button className="w-[150px] h-[50px] text-white bg-black text-sm font-semibold rounded-3xl drop-shadow-xl hover:bg-gray-800 transition delay-50 duration-300 ease-in-out ">
             Visit Website
