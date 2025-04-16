@@ -11,7 +11,7 @@ import reactIcon from '../assets/icons/react.svg'
 const Hero = () => {
     return (
         <>
-        <div className='min-h-screen'>
+        <div className='min-h-screen' id='hero'>
             <div className="flex flex-row justify-start">
                 <div className="basis-2/3 flex flex-col font-primary items-start text-left"> 
                     <h1 className="text-[64px] font-bold">Hello! I'm Parth Sangani.</h1>
