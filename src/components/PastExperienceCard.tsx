@@ -2,7 +2,7 @@ import { Experience } from "../data/experiencedata"
 
 
 
-const PastExperienceCard: React.FC<Experience> = ({id, name, company, description, image}) => {
+const PastExperienceCard: React.FC<Experience> = ({name, company, description, image}) => {
 
     return (
       <>

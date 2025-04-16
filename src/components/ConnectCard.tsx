@@ -12,12 +12,12 @@ const ConnectCard: React.FC<Connect> = ({platform, icon, url}) => {
       rel="noopener noreferrer"
       className="block">
             <div className="shadow-2xl rounded-2xl hover:scale-105 transition-transform">
-                <div className="text-start p-4 font-bold font-secondary">
+                <div className="text-start p-5 font-bold font-secondary">
                     <h1>{platform}</h1>
                 </div>
 
                 <div className="flex justify-center">
-                    <img src={icon}/>
+                    <img className="mb-5" src={icon} height={100} width={100}/>
                 </div>
 
             </div>

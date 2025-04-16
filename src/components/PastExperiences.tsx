@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { experiencedata } from '../data/experiencedata';
 import PastExperienceCard from './PastExperienceCard'
 
