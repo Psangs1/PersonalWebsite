@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import ProjectShowcase from './components/ProjectShowcase'
 import SkillsShowcase from './components/SkillsShowcase';
 import PastExperiences from './components/PastExperiences';
+import Connect from './components/Connect';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
 
       <SkillsShowcase />   
       <PastExperiences />
+      <Connect />
       
     </>
   )
