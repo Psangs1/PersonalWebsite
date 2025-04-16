@@ -9,6 +9,7 @@ import ProjectShowcase from './components/ProjectShowcase'
 import SkillsShowcase from './components/SkillsShowcase';
 import PastExperiences from './components/PastExperiences';
 import Connect from './components/Connect';
+import Footer from './components/Footer'
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
       <SkillsShowcase />   
       <PastExperiences />
       <Connect />
+      <Footer />
       
     </>
   )
