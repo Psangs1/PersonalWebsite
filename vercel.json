@@ -1,5 +1,20 @@
 {
-  "rewrites": [
-    { "source": "/((?!assets/|favicon.ico|robots.txt|.*\\..*).*)", "destination": "/" }
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": { "nodeVersion": "18.x" }
+    },
+    {
+      "src": "dist",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
