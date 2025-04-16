@@ -7,6 +7,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import ProjectShowcase from './components/ProjectShowcase'
 import SkillsShowcase from './components/SkillsShowcase';
+import PastExperiences from './components/PastExperiences';
 
 function App() {
 
@@ -39,6 +40,8 @@ function App() {
       )}
 
       <SkillsShowcase />   
+      <PastExperiences />
+      
     </>
   )
 }
