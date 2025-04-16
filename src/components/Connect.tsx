@@ -1,8 +1,4 @@
-import { useState } from 'react';
 import { connectdata } from '../data/connectdata.ts';
-
-
-import ProjectCard from './ProjectCard';
 import ConnectCard from './ConnectCard.tsx';
 
 

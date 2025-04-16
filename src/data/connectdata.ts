@@ -1,5 +1,3 @@
-import { projectdata } from "./projectdata"
-
 import linkedinIcon from "../assets/icons/linkedin.svg"
 import githubIcon from "../assets/icons/github.svg"
 import resumeIcon from "../assets/icons/resume.svg"
@@ -27,7 +25,7 @@ export const connectdata = [
 {
     id: 2,
     platform: "Resume",
-    icon: linkedinIcon,
+    icon: resumeIcon,
     url: "https://drive.google.com/file/d/11CXuWiEBATCuyI3-4evjai7fjl2lLnDi/view?usp=sharing"
 }
 

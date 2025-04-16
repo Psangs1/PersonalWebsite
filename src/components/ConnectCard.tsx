@@ -2,7 +2,7 @@ import { Connect } from "../data/connectdata"
 
 
 
-const ConnectCard: React.FC<Connect> = ({id, platform, icon, url}) => {
+const ConnectCard: React.FC<Connect> = ({platform, icon, url}) => {
 
     return (
       <>

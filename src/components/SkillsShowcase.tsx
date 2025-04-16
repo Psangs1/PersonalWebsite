@@ -1,9 +1,8 @@
 import { skillsdata } from "../data/skills";
 import { useState, useRef, useEffect } from 'react';
 import SkillsCard from "./SkillsCard";
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
-import skillsBackdrop from '../assets/skillsbackdrop.jpg'
 
 const SkillsShowcase = () => {
     const [visibleCards, setVisibleCards] = useState(skillsdata.slice(0, 2));

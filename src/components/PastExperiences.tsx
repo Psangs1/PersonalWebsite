@@ -1,14 +1,10 @@
 import { useState } from 'react';
 import { experiencedata } from '../data/experiencedata';
 import PastExperienceCard from './PastExperienceCard'
-import { motion, AnimatePresence } from 'framer-motion';
-import { Link } from 'react-router-dom';
 
 
 
 function PastExperiences() {
-
-    const [currentIndex, setCurrentIndex] = useState(0);
 
     return (
       <>

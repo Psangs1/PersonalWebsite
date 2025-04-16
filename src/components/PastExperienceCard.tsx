@@ -1,5 +1,4 @@
 import { Experience } from "../data/experiencedata"
-import { projectdata } from "../data/projectdata"
 
 
 

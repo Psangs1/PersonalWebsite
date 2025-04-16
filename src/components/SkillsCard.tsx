@@ -1,7 +1,7 @@
 import { Skills } from "../data/skills"
 
 
-const SkillsCard: React.FC<Skills> = ({id, name, years, seenin, icon}) => {
+const SkillsCard: React.FC<Skills> = ({name, years, seenin, icon}) => {
 
     return (
       <>

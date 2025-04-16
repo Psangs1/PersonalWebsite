@@ -2,7 +2,7 @@ import { Project } from "../data/projectdata"
 
 
 
-const ProjectCard: React.FC<Project> = ({id, name, skills, dates, image, description, codelink, websitelink}) => {
+const ProjectCard: React.FC<Project> = ({name, skills, dates, image, description, codelink, websitelink}) => {
 
     return (
       <>
