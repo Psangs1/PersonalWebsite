@@ -1,15 +1,1 @@
-{
-    "version": 2,
-    "builds": [
-      {
-        "src": "package.json", 
-        "use": "vercel-sapper"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "dist/index.js"
-      }
-    ]
-  }
+{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
