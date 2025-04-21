@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
         <nav className='pb-20'>
             <ul>
-                <div className='flex justify-between font-primary'>
+                <div className='flex justify-between font-primary sm:text-balance'>
                     <div className='flex flex-col items-start text-left'> 
                         <p> Parth Sangani</p>
                         <p> University of Maryland, College Park</p>
