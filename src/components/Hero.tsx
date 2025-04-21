@@ -34,8 +34,8 @@ const Hero = () => {
             </div>
         </div>
 
-        <div className='mt-15'>
-                <div className='flex flex-wrap justify-center md:gap-24 sm:gap-24 sm:p-4 px-2 font-icons font-bold text-lg sm:text-xl md:w-full'>
+        <div className='mt-20 mb-10'>
+                <div className='flex flex-wrap justify-center md:gap-24 gap-5 sm:p-4 px-2 font-icons font-bold text-lg sm:text-xl md:w-full'>
                     
                     <div className='flex flex-col items-center text-center bg-white rounded-2xl shadow hover:shadow-lg transition duration-300 p-4'>
                         <h1>React</h1>

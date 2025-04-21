@@ -41,7 +41,7 @@ const SkillsShowcase = () => {
             </div>
 
             <div
-                className="grid grid-rows-3 gap-10 p-8 rounded-2xl relative before:absolute bg-[url('../assets/skillsbackdrop.jpg')]"
+                className="flex flex-col items-center md:grid grid-rows-3 gap-10 p-8 rounded-2xl relative before:absolute bg-[url('../assets/skillsbackdrop.jpg')]"
                 ref={skillsRef}
                 id="skills-container"
             >
