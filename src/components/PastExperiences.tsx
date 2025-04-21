@@ -8,11 +8,11 @@ function PastExperiences() {
     return (
       <>
       <div className='mt-20 min-h-screen' id='experiences-container'>
-        <div className='text-[48px] font-bold text-left font-secondary'>
+        <div className='text-[48px] text-center font-bold md:text-left font-secondary'>
             <h1>Past Experiences</h1>
         </div>
 
-        <div className='flex flex-row gap-10 mt-10 font-secondary text-[14px] gap-y-0.5'>
+        <div className='flex flex-col md:flex-row gap-25 md:gap-10 mt-10 font-secondary text-[14px] md:gap-y-0.5'>
             {experiencedata.map(experience => <PastExperienceCard 
                 id={experience.id}
                 name={experience.name}
