@@ -16,10 +16,8 @@ function ProjectShowcase() {
             <h1>Project Showcase</h1>
           </div>
 
-          {/* Responsive layout container */}
           <div className='flex flex-col md:flex-row items-center justify-between gap-4 mt-6'>
 
-            {/* Left button (desktop only) */}
             <button
               className='hidden md:block hover:bg-card text-5xl px-4 transition duration-150 ease-in-out'
               onClick={() =>
@@ -31,7 +29,7 @@ function ProjectShowcase() {
               ◀
             </button>
 
-            {/* Project Card (always centered/focused) */}
+
             <div className='p-4 sm:p-6 md:p-8 rounded-2xl font-primary w-full max-w-[1000px] min-h-[550px] mx-auto'>
               <AnimatePresence mode='wait'>
                 <motion.div
@@ -55,7 +53,6 @@ function ProjectShowcase() {
               </AnimatePresence>
             </div>
 
-            {/* Right button (desktop only) */}
             <button
               className='hidden md:block hover:bg-card text-5xl px-4 transition duration-150 ease-in-out'
               onClick={() =>
