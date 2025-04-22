@@ -64,7 +64,7 @@ export interface Project {
       image: personalwebsiteImg,
       description: "This website!",
       codelink: "https://github.com/Psangs1/PersonalWebsite",
-      websitelink: "https://github.com/Psangs1/PersonalWebsite"
+      websitelink: "https://parth-sangani.vercel.app/"
     }
   ];
   

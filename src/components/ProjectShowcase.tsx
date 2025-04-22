@@ -11,7 +11,7 @@ function ProjectShowcase() {
 
     return (
       <>
-        <section id='project-showcase' className='min-h-screen rounded-4xl w-full bg-white shadow-2xl p-10'>
+        <section id='project-showcase' className='md:min-h-screen rounded-4xl w-full bg-white shadow-2xl p-10'>
           <div className='font-bold text-[40px] sm:text-[48px] md:text-[64px] font-primary text-center'>
             <h1>Project Showcase</h1>
           </div>
