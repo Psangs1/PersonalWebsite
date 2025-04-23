@@ -17,13 +17,13 @@ const Hero = () => {
                 <h1 className="text-4xl sm:text-5xl md:text-[64px] font-bold leading-tight">
                     Hello! I'm Parth Sangani.
                 </h1>
-                <h5 className="py-6 md:py-15 font-extralight text-base sm:text-lg md:text-[16px]">
+                <h5 className="py-6 md:py-15 font-extralight font-secondary text-base sm:text-lg md:text-[16px]">
                     I’m a current Junior at the University of Maryland, studying computer science and mathematics. 
                     I’ve interned across healthcare, government, and research sectors, where I’ve developed full-stack web applications, machine learning models, and cloud-based systems. 
                     Whether it’s optimizing food redistribution in Austin or matching nurses with top facilities in D.C., I bring strong engineering skills and a problem-solving mindset to every project.
                 </h5>
                 <HashLink smooth to="/#project-showcase">
-                    <button className="mt-4 text-white bg-black py-3 px-6 sm:py-4 sm:px-8 text-lg sm:text-xl md:text-sm rounded-2xl hover:bg-gray-800 transition delay-50 duration-300 ease-in-out">
+                    <button className="mt-4 text-white bg-black py-3 px-6 sm:py-4 sm:px-8 text-lg sm:text-xl md:text-sm rounded-2xl hover:bg-gray-800 transition delay-50 duration-300 ease-in-out font-icons">
                         See My Portfolio
                     </button>
                 </HashLink>
