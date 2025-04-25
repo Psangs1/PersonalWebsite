@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion';
 
+import { Analytics } from "@vercel/analytics/react"
+
+
 import './App.css'
 
 import Hero from './components/Hero'
@@ -28,6 +31,7 @@ function App() {
   
   return (
     <>
+      <Analytics />
       <Navbar />
       <Hero />
       <PastExperiences />
