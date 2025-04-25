@@ -30,6 +30,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <PastExperiences />
       {(
         <motion.div
         id="project-showcase"
@@ -41,8 +42,8 @@ function App() {
       </motion.div>
       )}
 
+
       <SkillsShowcase />   
-      <PastExperiences />
       <Connect />
       <Footer />
       
