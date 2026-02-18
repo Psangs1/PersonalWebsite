@@ -26,7 +26,7 @@ export const connectdata = [
     id: 2,
     platform: "Resume",
     icon: resumeIcon,
-    url: "https://drive.google.com/file/d/11CXuWiEBATCuyI3-4evjai7fjl2lLnDi/view?usp=sharing"
+    url: "https://drive.google.com/file/d/1xo_9m7dhyoYb2Qf5j8o2Efo66nftU1oZ/view?usp=sharing"
 }
 
 ]
